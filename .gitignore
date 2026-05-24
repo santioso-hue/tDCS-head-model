@@ -1,0 +1,32 @@
+# MRI data — never commit raw scans
+*.nii
+*.nii.gz
+*.IMA
+*.dcm
+*.mgz
+
+# SimNIBS outputs — too large for GitHub
+*.msh
+m2m_*/
+*.msh.opt
+
+# FSL outputs
+T1w_*.nii
+T1w_*.mat
+
+# Claude Code guidance file — not part of the public pipeline
+CLAUDE.md
+
+# Local QC scripts — not part of the public pipeline
+pipeline/03_qc_volumes.py
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# Keep these — QC screenshots and results figures are OK
+!qc/*.png
+!qc/*.jpg
+!results/*.png
+!results/*.jpg
