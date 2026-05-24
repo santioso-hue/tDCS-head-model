@@ -6,7 +6,7 @@ A full pipeline for building a subject-specific 3D head model from a structural 
 
 ## What is tDCS?
 
-Transcranial direct current stimulation (tDCS) delivers weak electrical currents through scalp electrodes to modulate cortical excitability. To understand *where* and *how much* current reaches specific brain regions, computational models are needed — and those models require an accurate, subject-specific representation of the head's geometry and tissue conductivities.
+Transcranial direct current stimulation (tDCS) delivers weak electrical currents through scalp electrodes to modulate cortical excitability. To understand *where* and *how much* current reaches specific brain regions, computational models are needed, and those models require an accurate, subject-specific representation of the head's geometry and tissue conductivities.
 
 ---
 
